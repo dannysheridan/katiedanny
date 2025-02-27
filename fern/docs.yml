@@ -2,7 +2,7 @@
 
 instances:
   - url: katiedanny.docs.buildwithfern.com
-    custom-domain: katiedanny.com
+    custom-domain: www.katiedanny.com
     edit-this-page:
       github: 
         owner: dannysheridan
