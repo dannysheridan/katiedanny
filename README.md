@@ -1,6 +1,8 @@
-This is a project for Katie and Danny's website! 
+## Katie & Danny's Website 
 
-![Katie and Danny's Engagement Photo](engagement.jpg)
+This is a project for Katie and Danny's personal website! In it, you'll find updats for friends and family.
+
+<img src="fern/docs/assets/engagement.jpg" alt="Katie and Danny's Engagement Photo" width="400"/>
 
 It's built with [Fern](https://www.buildwithfern.com/) and hosted on [Vercel](https://vercel.com/).
 
