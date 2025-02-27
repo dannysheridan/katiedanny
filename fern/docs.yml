@@ -1,42 +1,39 @@
-instances:
-  - url: plantstore.docs.buildwithfern.com # update this to {yourorg}.docs.buildwithfern.com
-    # custom-domain: plantstore.dev # specify your custom domain when you are ready to go live
+# yaml-language-server: $schema=https://schema.buildwithfern.dev/docs-yml.json
 
-title: Plant Store
+instances:
+  - url: katiedanny.docs.buildwithfern.com
+
+title: Katie & Danny
 
 layout:
   searchbar-placement: header
   page-width: full
 
 navigation:
-  - section: Get Started
+  - section: Life Updates
     contents:
-      - page: Welcome
-        path: docs/pages/welcome.mdx
-      - page: Concepts
-        path: docs/pages/concepts.mdx
-      - page: SDKs
-        path: docs/pages/sdks.mdx
-        slug: sdks
-  - api: API Reference
+      - page: Baby!
+        path: docs/pages/baby.mdx
+      - page: Bark Springs
+        path: docs/pages/bark-springs.mdx
 
 navbar-links:
-  - type: secondary
-    text: Fork this repo
-    url: https://github.com/fern-api/docs-starter
-  - type: primary
-    text: Get a demo
-    url: https://buildwithfern.com/contact?utm_campaign=demo&utm_medium=plantstore&utm_source=navbar
+  - type: filled
+    text: Email Danny
+    url: mailto:dannysheridan10@me.com
+    # remove the arrow icon! 
+  - type: filled
+    text: Email Katie
+    url: mailto:katie@katiesheridan.com
 
 colors:
   accentPrimary:
-    dark: "#81C784"
-    light: "#1B5E20"
+    dark: "#D4B483"
+    light: "#664119"
 
 logo:
-  dark: docs/assets/logo-dark.svg
-  light: docs/assets/logo-light.svg
-  height: 20
-  href: https://buildwithfern.com/?utm_campaign=demo&utm_medium=plantstore&utm_source=logo
+  dark: docs/assets/logo-dark-mode.png
+  light: docs/assets/logo-light-mode.png
+  height: 70
 
-favicon: docs/assets/favicon.svg
+favicon: docs/assets/favicon.png
