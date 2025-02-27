@@ -2,6 +2,7 @@
 
 instances:
   - url: katiedanny.docs.buildwithfern.com
+    custom-domain: katiedanny.com
 
 title: Katie & Danny
 
