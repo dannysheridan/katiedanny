@@ -3,6 +3,11 @@
 instances:
   - url: katiedanny.docs.buildwithfern.com
     custom-domain: katiedanny.com
+    edit-this-page:
+      github: 
+        owner: dannysheridan
+        repo: katiedanny
+        branch: main
 
 title: Katie & Danny
 
