@@ -16,12 +16,14 @@ layout:
   page-width: full
 
 navigation:
-  - section: Life Updates
+  - section: Baby Sheridan
     contents:
-      - page: Baby!
+      - page: We're Having aBaby!
         path: docs/pages/baby.mdx
-      - page: Bark Springs
-        path: docs/pages/bark-springs.mdx
+  - section: Bark Springs 
+    contents:
+      - page: So It Begins
+        path: docs/pages/beginnings.mdx
 
 navbar-links:
   - type: filled
