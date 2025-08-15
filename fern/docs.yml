@@ -18,7 +18,7 @@ layout:
 navigation:
   - section: Baby Sheridan
     contents:
-      - page: We're Having a Baby!
+      - page: Hello, world Mia!
         path: docs/pages/baby.mdx
   - section: Bark Springs 
     contents:
