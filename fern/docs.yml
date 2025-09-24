@@ -1,47 +1,39 @@
-# yaml-language-server: $schema=https://schema.buildwithfern.dev/docs-yml.json
-
 instances:
   - url: katiedanny.docs.buildwithfern.com
     custom-domain: www.katiedanny.com
     edit-this-page:
-      github: 
+      github:
         owner: dannysheridan
         repo: katiedanny
         branch: main
-
 title: Katie & Danny
-
 layout:
   searchbar-placement: header
   page-width: full
-
 navigation:
   - section: Baby Sheridan
     contents:
       - page: Hello, world Mia!
         path: docs/pages/baby.mdx
-  - section: Bark Springs 
+  - section: Bark Springs
     contents:
+      - page: Landscaping
+        path: docs/pages/bark-springs/landscaping.mdx
       - page: Construction Progress
         path: docs/pages/house.mdx
-
 navbar-links:
   - type: filled
     text: Email Danny
     url: mailto:dannysheridan10@me.com
-    # remove the arrow icon! 
   - type: filled
     text: Email Katie
     url: mailto:katie@katiesheridan.com
-
 colors:
   accentPrimary:
-    dark: "#D4B483"
-    light: "#664119"
-
+    dark: '#D4B483'
+    light: '#664119'
 logo:
   dark: docs/assets/logo-dark-mode.png
   light: docs/assets/logo-light-mode.png
   height: 70
-
 favicon: docs/assets/favicon-white.png
