@@ -13,13 +13,13 @@ layout:
 navigation:
   - section: Baby Sheridan
     contents:
-      - page: Hello, world Mia!
-        path: docs/pages/baby.mdx
       - page: 8 month update
         path: ./docs/pages/8-month-update.mdx
+      - page: Hello, world Mia!
+        path: docs/pages/baby.mdx
   - section: Bark Springs
     contents:
-      - page: Landscaping
+      - page: Photo Gallery
         path: docs/pages/bark-springs/landscaping.mdx
       - page: Construction Progress
         path: docs/pages/house.mdx
